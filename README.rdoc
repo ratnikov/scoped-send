@@ -1,0 +1,10 @@
+== What does this gem do?
+
+This gem provides a more secure version of `send' method that takes a list of scopes, which define what kind of method invocation is expected. If the method invoked does not satisfy any of the scopes,
+scoped_method_missing is invoked, which throws a NoMethodError by default
+
+Switching your code to use scoped_send should help mitigate your software from send parameter injection attacks.
+
+== License and Copyright
+
+All of the code is copyrighted by Google and is released under MIT license.
