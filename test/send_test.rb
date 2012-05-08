@@ -1,6 +1,4 @@
-require 'test/unit'
-
-require 'scoped-send'
+require 'test_helper'
 
 class SendTest < Test::Unit::TestCase
   module Mod
