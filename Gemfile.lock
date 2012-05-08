@@ -1,0 +1,13 @@
+PATH
+  remote: .
+  specs:
+    scoped_send (0.0.1)
+
+GEM
+  specs:
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  scoped_send!
